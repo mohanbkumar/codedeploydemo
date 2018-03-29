@@ -7,6 +7,8 @@ hooks:
   BeforeInstall:
     - location: deploy/before_install
       timeout: 300
-  fterInstall:
+      runas: root
+  AfterInstall:
     - location: deploy/restart_server
-      timeout: 300    
+      timeout: 300
+      runas: root
