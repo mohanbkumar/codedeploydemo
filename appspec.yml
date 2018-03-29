@@ -8,5 +8,5 @@ hooks:
     - location: deploy/before_install
       timeout: 300      
   AfterInstall:
-    - location: deploy/restart_server
+    - location: deploy/after_install
       timeout: 300      
