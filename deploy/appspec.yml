@@ -9,4 +9,4 @@ hooks:
       timeout: 300
   fterInstall:
     - location: deploy/restart_server
-      timeout: 300      
+      timeout: 300    
